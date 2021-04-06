@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Landing Page Lab 2</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./resources/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./resources/favicons/favicon-16x16.png">
+<link rel="manifest" href="./resources/favicons/site.webmanifest">
+<link rel="shortcut icon" href="./resources/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#75ebea">
+<meta name="msapplication-config" content="./resources/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body>
+    <!-- BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class='bx bxs-home'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bx-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu">
+                <i class='bx bx-food-menu' ></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonial">
+                <i class="bx bxs-comment-detail"></i>
+            </a>
+        </div>
+    </div>
+    <!-- END MOBILE NAV -->
+    <!-- TOP NAVIGATION -->
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="#home" class="logo">freshfood</a>
+            <ul class="menu h-xs">
+                <li class="menu-item active"><a href="#home">Home</a></li>
+                <li class="menu-item"><a href="#about">About</a></li>
+                <li class="menu-item"><a href="#food-menu">Menu</a></li>
+                <li class="menu-item"><a href="#testimonial">Testimonials</a></li>
+            </ul>
+            <div class="right-menu">
+                <i class='bx bxs-cart cart-btn' ></i>
+            </div>
+        </div>
+    </div>
+    <!-- END TOP NAVIGATION -->
+    <!-- SECTION HOME -->
+    <section id="home" class="fullheight align-items-center bg-img bg-img-fixed">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="slogan">
+                        <h1 class="top-to-bottom play-on-scroll">Freshfood</h1>
+                        <p class="left-to-right play-on-scroll">
+                            I believe that who came to This English centre would love this place as I did,
+                            when the course finished, I feel sad because of studying in that place 
+                            I always felt funny.
+                        </p>
+                        <div class="right-to-left play-on-scroll">
+                            <button>Oder Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION HOME -->
+    <!-- SECTION ABOUT -->
+    <section id="about" class="fullheight align-items-center about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 h-xs left-to-right play-on-scroll delay-12">
+                    <img src="./resources/img/bg2.jpg" class="fullwidth">
+                </div>
+                <div class="col-5 col-xs-12 align-items-center">
+                    <div class="about-slogan right-to-left play-on-scroll delay-8">
+                        <h3><span class="primary-color">We</span> create <span class="primary-color">delicious</span>
+                             memories for <span class="primary-color">you</span></h3>
+                        <p>
+                            I believe that who came to This English centre would love this place as I did,
+                            when the course finished, I feel sad because of studying in that place 
+                            I always felt funny.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- END SECTION ABOUT -->
+    <!-- FOOD MENU SECTION -->
+    <section id="food-menu" class="align-items-center bg-img bg-img-fixed">
+        <div class="container">
+            <div class="food-menu">
+                <h1>What will <span class="primary-color">you</span> eat today?</h1>
+                <p>
+                    I believe that who came to This English centre would love this place as I did,
+                    when the course finished, I feel sad because of studying in that place 
+                    I always felt funny.
+                </p>
+                <div class="food-category">
+                    <div class="zoom play-on-scroll delay-4">
+                        <button class="active" data-food-type="all">All food</button>
+                    </div>
+                    <div class="zoom play-on-scroll">
+                        <button data-food-type="salad">Salad</button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="lorem">Lorem</button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-10">
+                        <button data-food-type="ipsum">Ipsum</button></div>
+                    <div class="zoom play-on-scroll delay-12">
+                        <button data-food-type="dolor">Dolor</button></div>
+                </div>
+                <div class="food-item-wrap all">
+                    <div class="food-item bottom-up play-on-scroll ipsum-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/pho.jpg" alt="pho">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll dolor-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/beer.jpg" alt="beer">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll salad-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/bread.jpg" alt="bread">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll lorem-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/bun-bo.jpg" alt="bun-bo">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll dolor-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/iberian-bacon.jpg" alt="iberian-bacon">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll ipsum-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/Kobe-beef.jpg" alt="Kobe-beef">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll salad-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/pasta.jpg" alt="pasta">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll lorem-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/sushi.jpg" alt="sushi">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item bottom-up play-on-scroll ipsum-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/pho.jpg" alt="pho">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item bottom-up play-on-scroll dolor-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/beer.jpg" alt="beer">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll salad-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/bread.jpg" alt="bread">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll lorem-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/bun-bo.jpg" alt="bun-bo">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll dolor-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/iberian-bacon.jpg" alt="iberian-bacon">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll ipsum-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/Kobe-beef.jpg" alt="Kobe-beef">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll salad-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/pasta.jpg" alt="pasta">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item bottom-up play-on-scroll lorem-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <img src="./resources/img/sushi.jpg" alt="sushi">
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>Lorem Ipsum</h3>
+                                    <span class="price">120<span class="red">$</span></span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bxs-cart cart-btn' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+    <!-- TESTIMONIAL SECTION -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll">
+                        <div class="review-content">
+                            <p>I believe that who came to This English centre would love this place as I did, when the course finished,
+                                I feel sad because of studying in that place I always felt funny.</p>
+                            <div class="review-img-hai bg-img"></div>
+                        </div>
+                        <div class="review-info">
+                            <h3>Lorem Ipsum Dolor</h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="zoom play-on-scroll delay-4">
+                        <div class="review-wrap active">
+                            <div class="review-content">
+                                <p>I believe that who came to This English centre would love this place as I did, when the course finished,
+                                    I feel sad because of studying in that place I always felt funny.</p>
+                                <div class="review-img-huan bg-img"></div>
+                            </div>
+                            <div class="review-info">
+                                <h3>Lorem Ipsum Dolor</h3>
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll">
+                        <div class="review-content">
+                            <p>I believe that who came to This English centre would love this place as I did, when the course finished,
+                                I feel sad because of studying in that place I always felt funny.</p>
+                            <div class="review-img-huan1 bg-img"></div>
+                        </div>
+                        <div class="review-info">
+                            <h3>Lorem Ipsum Dolor</h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+    <!-- FOOTER -->
+    <footer class="footer bg-img bg-img-fixed">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <h1>Freshfood</h1>
+                    <br>
+                    <p>I believe that who came to This English centre would love this place as I did, when the course finished,
+                        I feel sad because of studying in that place I always felt funny.</p>
+                    <br>
+                    <p>Email: danlangvan@gmail.com</p>
+                    <p>Phone: +84 906 860</p>
+                    <p>Website: demodesign.byethost32.com</p>
+                </div>
+                <div class="col-2 col-xs-12">
+                    <h1>Abouts Us</h1>
+                    <br>
+                    <p><a href="#">Chef</a></p>
+                    <p><a href="#">Menu</a></p>
+                    <p><a href="#">Testimonials</a></p>
+                    <p><a href="#">Lorem Ipsum</a></p>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1>Subscribe & media</h1><br>
+                    <p>I believe that who came to This English centre would love this place as I did, when the course finished,
+                       I feel sad because of studying in that place I always felt funny.</p>
+                        <div class="input-group">
+                           <input type="text" placeholder="Enter you email">
+                            <button>Subscribe</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+    <a class="home" href="http://bit.ly/hghuan"><i class='bx bxs-home'></i></a>
+    <script src="./resources/js/script.js"></script>
+</body>
+</html>
